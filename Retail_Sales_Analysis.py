@@ -5,8 +5,7 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 
-df_clean = pd.read_csv(
-    r"C:\Users\nayer\Downloads\python course\final project stuff\retail_sales_cleaned.csv")
+df_clean = pd.read_csv("retail_sales_cleaned.csv")
 Navigator = st.sidebar.title('🧭Navigator')
 page = st.sidebar.radio("Pages", ["Dataset", "Analytics"])
 
